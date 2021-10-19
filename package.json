@@ -21,11 +21,6 @@
     "lint": "eslint ./src",
     "lint:tests": "eslint ./test"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint && npm run lint:tests"
-    }
-  },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
