@@ -392,7 +392,6 @@ function renderBlock(block, index, rawDraftObject, options) {
     if (character !== " " && markdownToAdd.length) {
       markdownString += markdownToAdd
         .map(function (item) {
-          console.log("item", item);
           return item.value;
         })
         .join("");
